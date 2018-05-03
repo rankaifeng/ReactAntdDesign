@@ -185,9 +185,6 @@ class Login extends Component {
                     </div>
                 </div>
                 <div className="dev_login">
-                    <div className="dev_login_log">
-                        <img src={require('../img/logoOuyeel.png')} alt="22"/>
-                    </div>
                     <Tabs defaultActiveKey="1" onChange={this.callback}>
                         <TabPane tab="账号密码登录" key="1">{acount}
                         </TabPane>
