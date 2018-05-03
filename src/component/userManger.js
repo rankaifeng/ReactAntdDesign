@@ -487,9 +487,6 @@ class userManger extends Component {
         return (
             <div className="sub-view">
                 <div className="meun">
-                    <div className="headImage">
-                        <img src={require('../img/logoOuyeel.png')} alt="22"/>
-                    </div>
                     <Menu
                         theme="dark"
                         mode="inline"
