@@ -1,0 +1,130 @@
+.add_new_users {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 10001;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: 600px;
+    border: 1px solid #F0F0F0;
+    background: #F0F0F0;
+}
+
+.add_new_users h4 {
+    margin-left: 70px;
+}
+
+.input_box_1 {
+    height: 80px;
+}
+
+.user_name {
+    margin-left: 70px;
+    width: 300px;
+    float: left;
+}
+
+.user_name input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.cell_phone_number {
+    margin-left: 70px;
+    width: 300px;
+    float: left;
+}
+
+.cell_phone_number input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.ID_number {
+    margin-left: 70px;
+    width: 300px;
+    float: left;
+}
+
+.ID_number input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.input_box_2 {
+    margin-top: 10px;
+    width: 1199px;
+    height: 80px;
+}
+
+.input_box_3 {
+    margin-top: 10px;
+    width: 1199px;
+    height: 90px;
+}
+
+.input_box_4 {
+    margin-top: 150px;
+    width: 1199px;
+    height: 80px;
+}
+
+.new_number_2 {
+    margin-top: 30px;
+}
+
+.user_name span {
+    font-size: 13px;
+    color: #D58512;
+    display: none;
+}
+
+.preserve {
+    width: 120px;
+    height: 45px;
+    border: none;
+    color: #F9F9F9;
+    border-radius: 5px;
+    background: #0073BF;
+    cursor: pointer;
+    margin-left: 450px;
+    font-size: 15px;
+}
+
+.abolish {
+    width: 120px;
+    height: 45px;
+    border: none;
+    color: #FFFFFF;
+    background: #888888;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.ID_number span{
+    color: red;
+    padding: 2px;
+}
+.cell_phone_number span{
+    color: red;
+    padding: 2px;
+}

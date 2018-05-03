@@ -1,0 +1,231 @@
+@import '~antd/dist/antd.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.login_bg {
+    position: fixed;
+    width: 100%;
+    background: url("../img/login_bg.jpg") no-repeat;
+    height: 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.dev_login {
+    position: absolute;
+    z-index: -1;
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 1px solid #919191;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dev_login_log {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.dev_login_log img {
+    width: 142px;
+    height: 74px;
+}
+
+.dev_userLogin {
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dev_userLogin .userName {
+    width: 277px;
+    height: 39px;
+    margin-top: 20px;
+    border-radius: 3px;
+
+}
+
+.dev_userLogin Form FormItem {
+    display: flex;
+    justify-content: center;
+}
+
+.t {
+    margin-top: 20px;
+}
+
+.btn_login {
+    width: 280px;
+    height: 35px;
+}
+
+.dev_login_bottom {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #919191;
+    font-size: 12px;
+}
+
+.ant-form-explain {
+    margin-left: 13px;
+    width: 300px;
+}
+
+.ant-form-item-control {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    flex-wrap: wrap;
+}
+
+.ant-form-inline .ant-form-item-with-help {
+    margin-bottom: 15px;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split {
+    color: #f51722;
+    clear: both;
+    font-size: 13px;
+    display: block;
+}
+
+.ant-form-inline .ant-form-explain {
+    position: inherit;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    margin: 0 60px 0 0;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(72, 72, 72, 0.7);
+    z-index: 1;
+}
+
+.dev_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 500px;
+}
+
+.dev1_loading {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 14px;
+    color: #ff4d95;
+}
+
+.bottom_loading {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.common {
+    height: 230px;
+    width: 300px;
+
+}
+
+.login-forget {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginCheck {
+    height: 40px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+.forgetPassWord {
+    height: 40px;
+    width: 90px;
+    color: #1890ff;
+    /*float: right;*/
+    /*margin-left: 10px;*/
+    text-align: center;
+}
+
+.loginBtnSub {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+.regist {
+    color: #1890ff;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+/*.ant-input ant-input-lg{*/
+/*height: 30px;*/
+/*width:100px ;*/
+/*}*/
+.phoneView {
+    width: 300px;
+    height: 65px;
+    text-align: center;
+}
+
+.verificationCodeView {
+    width: 300px;
+    height: 65px;
+}
+
+.verificationCodeView .userName {
+    width: 160px;
+    height: 39px;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+
+}
+
+.verificationCodeView .ant-btn {
+    width: 90px;
+    height: 38px;
+    margin-left: 20px;
+}

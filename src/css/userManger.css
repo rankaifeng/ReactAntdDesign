@@ -1,0 +1,256 @@
+/*body {*/
+    /*background-color: #c1c1c1;*/
+/*}*/
+@import '~antd/dist/antd.css';
+.sub-view {
+    height: 1000px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: flex-start;
+    position: fixed
+}
+
+.meun {
+    width: 240px;
+    height: 700px;
+    /*background-color: #c1c1c1;*/
+    /*position: fixed;*/
+    /*background: black;*/
+
+}
+
+.headImage {
+    margin-top: 30px;
+    width: 240px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.right-view {
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 85%;
+    height: 650px;
+    background-color: white;
+    /*overflow: scroll*/
+    /*margin-right: 20px;*/
+}
+
+.user-view {
+    height: 40px;
+    width: 100%;
+    /*background-color: rebeccapurple;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-info {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-infoView {
+    line-height: 40px;
+    width: 67px;
+    text-align: center;
+    background-color: #c1c1c1;
+}
+
+.user-infoView1 {
+    line-height: 40px;
+    width: 67px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.user-infoView2 {
+    line-height: 40px;
+    width: 67px;
+    text-align: center;
+    background-color: peachpuff;
+}
+
+.change-view {
+    width: 100%;
+    height: 100px;
+    /*background-color: #2e1bff;*/
+}
+
+.button-view {
+    height: 32px;
+    width: 100%;
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.space-btnView {
+    margin-left: 20px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    /*background-color: chocolate;*/
+    text-align: center;
+}
+
+.space-btnView-w400 {
+    width: 400px;
+}
+
+.space-btnView-w150 {
+    width: 150px;
+}
+
+.space-btnView-w500 {
+    width: 500px;
+}
+
+.redBg {
+    background-color: red;
+    color: white;
+}
+
+.grayBg {
+    background-color: #c1c1c1;
+    color: white;
+}
+
+.greenBg {
+    background: green;
+    color: white;
+}
+
+.input-view {
+    height: 80px;
+    width: 100%;
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.review-view {
+    height: 40px;
+    width: 100%;
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/*.edit-num span {*/
+    /*width: 80px;*/
+    /*line-height: 40px;*/
+    /*margin-top: -5px;*/
+/*}*/
+.edit-num p {
+    width: 80px;
+    line-height: 40px;
+    margin-top: -5px;
+}
+.edit-num {
+    display: flex;
+    /*justify-content: flex-start;*/
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    /*text-align: center;*/
+}
+.edit-num input{
+    width: 180px;
+}
+.search-clean {
+    margin-top: 20px;
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.menu_dev {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 242, 245, 1);
+    overflow: scroll;
+    -moz-background-size: 100% 100%;
+    display: flex;
+    background-size: 100% 100%;
+}
+
+.menu_dev_left .menu_dev_left_top {
+    width: 270px;
+    margin-top: 20px;
+    /*height: 290px;*/
+    /*background-color: rgba(67, 67, 67, 1);*/
+    color: white;
+}
+
+.menu_dev_left_bottom {
+    margin-top: 20px;
+}
+
+.menu_dev .menu_dev_left {
+    width: 320px;
+    height: 560px;
+    margin-left: 20px;
+}
+
+.menu_dev .menu_dev_right {
+    width: 100%;
+    height: 560px;
+    margin-left: 20px;
+}
+
+.menu_dev_right_save {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 20px;
+    color: black;
+}
+
+.menu_dev_right_save input {
+    width: 170px;
+}
+
+#components-form-demo-advanced-search .ant-advanced-search-form {
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+}
+
+/*.ant-form-item-control {*/
+/*width: 200px;*/
+/*display:inline-flex;*/
+/*-ms-flex-pack: center;*/
+/*justify-content: flex-start;*/
+/*align-items: center;*/
+/*height: 40px;*/
+/*-ms-flex-wrap: wrap;*/
+/*flex-wrap: wrap;*/
+/*}*/
+.button {
+    width: 50px;
+}
+
+.menu_dev_right_bottom {
+    height: 100%;
+    -moz-background-size: 100% 100%;
+    display: flex;
+    background-size: 100% 100%;
+}
+
+.menu_dev_right_table {
+    width: 100%;
+    border-radius: 5px;
+}
+.table-view{
+    overflow: scroll;
+    height: 500px;
+    width: 100%;
+}

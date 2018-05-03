@@ -1,0 +1,89 @@
+/*body {*/
+/*padding: 0px;*/
+/*margin: 0px;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*background-repeat: no-repeat;*/
+/*background: url("../img/login_bg.jpg");*/
+/*background-size: cover;*/
+/*}*/
+
+.login_bg {
+    position: fixed;
+    width: 100%;
+    background: url("../img/login_bg.jpg") no-repeat;
+    height: 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.register_frame {
+    width: 382px;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+.register_frame p {
+    font-size: 18px;
+}
+
+.register_frame input {
+    width: 380px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #9B9B9B;
+    text-indent: 5px;
+}
+
+.phone_number {
+    width: 379.9px;
+    border-radius: 3px;
+    border: 1px solid #9B9B9B;
+}
+
+.phone_number a {
+    margin-left: 10px;
+    height: 30px;
+}
+
+.phone_number input {
+    margin-left: 19.8px;
+    width: 310px;
+    height: 30px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.verification_code1 input {
+    width: 251px;
+    height: 30px;
+}
+
+.verification_code1 button {
+    width: 114px;
+    height: 33px;
+    border-radius: 3px;
+    border: none;
+    background: #0073BF;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.login_registration button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #0073BF;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.login_registration a {
+    text-decoration: none;
+    margin-left: 77px;
+    font-size: 12.5px;
+    color: #0073BF;
+}
